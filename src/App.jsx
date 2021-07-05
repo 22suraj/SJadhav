@@ -78,8 +78,8 @@ function App() {
       <div className="flex flex-col bg-bground text-white justify-center items-center py-16">
         <p className="text-3xl mb-6 pb-2 font-semibold border-b-2">About</p>
         <div className="flex-col flex lg:flex-row lg:space-x-8 justify-center items-center">
-          <div className="h-96 w-4/5 lg:w-96 bg-suraj-img bg-cover"></div>
-          <div className="lg:w-1/2 w-4/5 py-4 lg:py-0">
+          <div className="h-96 w-11/12 lg:w-96 bg-suraj-img bg-cover"></div>
+          <div className="lg:w-1/2 w-11/12 py-4 lg:py-0">
             sdivbdsi vsdiov nsdnvsdnvsdnv sdnvdvnxcknv xcvnxcin v ozxv nzin
             sdionv idfnv dv dfvndfn dfk nvdfiovdoi zi ndf vndfndfn v opfvkjdnv
             vnd fvndfv nodnf voi dnfvn n dfovnfdnionsvindfidnfvn idfv
