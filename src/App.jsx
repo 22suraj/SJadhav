@@ -77,9 +77,9 @@ function App() {
       </div>
       <div className="flex flex-col bg-bground text-white justify-center items-center py-16">
         <p className="text-3xl mb-6 pb-2 font-semibold border-b-2">About</p>
-        <div className="flex-col flex lg:flex-row lg:space-x-8 justify-center">
-          <div className="h-96 w-96 bg-suraj-img bg-cover"></div>
-          <div className="lg:w-1/2 w-96 py-4 lg:py-0">
+        <div className="flex-col flex lg:flex-row lg:space-x-8 justify-center items-center">
+          <div className="h-96 w-4/5 lg:w-96 bg-suraj-img bg-cover"></div>
+          <div className="lg:w-1/2 w-4/5 py-4 lg:py-0">
             sdivbdsi vsdiov nsdnvsdnvsdnv sdnvdvnxcknv xcvnxcin v ozxv nzin
             sdionv idfnv dv dfvndfn dfk nvdfiovdoi zi ndf vndfndfn v opfvkjdnv
             vnd fvndfv nodnf voi dnfvn n dfovnfdnionsvindfidnfvn idfv
@@ -99,27 +99,27 @@ function App() {
       </div>
       <div className="flex flex-col text-white justify-center items-center py-8 bg-skill-bg bg-fixed bg-cover">
         <p className="text-3xl mb-6 pb-2 font-semibold  border-b-2">Skills</p>
-        <div className="flex flex-col w-full items-center lg:justify-evenly lg:flex-row">
-          <div>
+        <div className="flex flex-col w-full px-6 items-start lg:items-center lg:justify-evenly lg:flex-row">
+          <div className="">
             <div className="py-4 transform transition-all hover:scale-125">
               <p className="text-xl">Core Java</p>
               <div className="relative">
-                <div className="w-96"></div>
-                <div className="rounded-full h-2 w-96 bg-white absolute"></div>
+                <div className="lg:w-96"></div>
+                <div className="rounded-full h-2 w-80 lg:w-96 bg-white absolute"></div>
                 <div className="rounded-full h-2 w-72 bg-skillbar absolute"></div>
               </div>
             </div>
             <div className="py-4 transform transition-all hover:scale-125">
               <p className="text-xl">Flutter</p>
               <div className="relative">
-                <div className="rounded-full h-2 w-96 bg-white absolute"></div>
-                <div className="rounded-full h-2 w-80 bg-skillbar absolute"></div>
+                <div className="rounded-full h-2 w-80  lg:w-96 bg-white absolute"></div>
+                <div className="rounded-full h-2 w-72 bg-skillbar absolute"></div>
               </div>
             </div>
             <div className="py-4 transform transition-all hover:scale-125">
               <p className="text-xl">React JS</p>
               <div className="relative">
-                <div className="rounded-full h-2 w-96 bg-white absolute"></div>
+                <div className="rounded-full h-2 w-80 lg:w-96 bg-white absolute"></div>
                 <div className="rounded-full h-2 w-40 bg-skillbar absolute"></div>
               </div>
             </div>
@@ -128,22 +128,22 @@ function App() {
             <div className="py-4 transform transition-all hover:scale-125">
               <p className="text-xl">C/C++</p>
               <div className="relative">
-                <div className="w-96"></div>
-                <div className="rounded-full h-2 w-96 bg-white absolute"></div>
+                <div className="lg:w-96"></div>
+                <div className="rounded-full h-2 w-80 lg:w-96 bg-white absolute"></div>
                 <div className="rounded-full h-2 w-52 bg-skillbar absolute"></div>
               </div>
             </div>
             <div className="py-4 transform transition-all hover:scale-125">
               <p className="text-xl">AWS/GCP</p>
               <div className="relative">
-                <div className="rounded-full h-2 w-96 bg-white absolute"></div>
+                <div className="rounded-full h-2 w-80 lg:w-96 bg-white absolute"></div>
                 <div className="rounded-full h-2 w-64 bg-skillbar absolute"></div>
               </div>
             </div>
             <div className="py-4 transform transition-all hover:scale-125">
               <p className="text-xl">DevOps</p>
               <div className="relative">
-                <div className="rounded-full h-2 w-96 bg-white absolute"></div>
+                <div className="rounded-full h-2 w-80 lg:-96 bg-white absolute"></div>
                 <div className="rounded-full h-2 w-52 bg-skillbar absolute"></div>
               </div>
             </div>
