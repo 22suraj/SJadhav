@@ -13,7 +13,7 @@ function App() {
           SJadhav
         </a>
         <div className="flex self-center">
-          <button className="text-white px-8 md:hidden transform  transition-all hover:scale-125">
+          <button className="text-white mx-8 md:hidden transform  transition-all hover:scale-125">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
@@ -84,16 +84,17 @@ function App() {
             sdionv idfnv dv dfvndfn dfk nvdfiovdoi zi ndf vndfndfn v opfvkjdnv
             vnd fvndfv nodnf voi dnfvn n dfovnfdnionsvindfidnfvn idfv
             ndfnisdfnlvdfnbdfn bndn dfvn inlsdf nvdnbdf dn oszlnzvbzsidnndfbn
-            fdbdl dxfn b fdbndn kdfn bddfoibnn nld fbn d fvbndfo invndfvnd
-            fowsvuhbfd vbdf iodfnbdnfbfdbn dofn bdfoibn ondfobfdnbodfn bndbn
-            dfbnosunv ds svdv sdnsan vsdijvn dsnva snbsdnivsd nvasnsv loasoi
-            sdivbdsi vsdiov nsdnvsdnvsdnv sdnvdvnxcknv xcvnxcin v ozxv nzin
-            sdionv idfnv dv dfvndfn dfk nvdfiovdoi zi ndf vndfndfn v opfvkjdnv
-            vnd fvndfv nodnf voi dnfvn n dfovnfdnionsvindfidnfvn idfv
-            ndfnisdfnlvdfnbdfn bndn dfvn inlsdf nvdnbdf dn oszlnzvbzsidnndfbn
-            fdbdl dxfn b fdbndn kdfn bddfoibnn nld fbn d fvbndfo invndfvnd
-            fowsvuhbfd vbdf iodfnbdnfbfdbn dofn bdfoibn ondfobfdnbodfn bndbn
-            dfbnosunv ds svdv sdnsan vsdijvn dsnva snbsdnivsd nvasnsv loasoi
+            fdbdl dxfn bgyi g iu i giiu biubi blo bibiu lkn uiolbn oiul b fdbndn
+            kdfn bddfoibnn nld fbn d fvbndfo invndfvnd fowsvuhbfd vbdf
+            iodfnbdnfbfdbn dofn bdfoibn ondfobfdnbodfn bndbn dfbnosunv ds svdv
+            sdnsan vsdijvn dsnva snbsdnivsd nvasnsv loasoi sdivbdsi vsdiov
+            nsdnvsdnvsdnv sdnvdvnxcknv xcvnxcin v ozxv nzin sdionv idfnv dv
+            dfvndfn dfk nvdfiovdoi zi ndf vndfndfn v opfvkjdnv vnd fvndfv nodnf
+            voi dnfvn n dfovnfdnionsvindfidnfvn idfv ndfnisdfnlvdfnbdfn bndn
+            dfvn inlsdf nvdnbdf dn oszlnzvbzsidnndfbn fdbdl dxfn b fdbndn kdfn
+            bddfoibnn nld fbn d fvbndfo invndfvnd fowsvuhbfd vbdf iodfnbdnfbfdbn
+            dofn bdfoibn ondfobfdnbodfn bndbn dfbnosunv ds svdv sdnsan vsdijvn
+            dsnva snbsdnivsd nvasnsv loasoi
           </div>
         </div>
       </div>
@@ -101,7 +102,7 @@ function App() {
         <p className="text-3xl mb-6 pb-2 font-semibold  border-b-2">Skills</p>
         <div className="flex flex-col w-full px-6 items-start lg:items-center lg:justify-evenly lg:flex-row">
           <div className="">
-            <div className="py-4 transform transition-all hover:scale-125">
+            <div className="py-4 transform transition-all lg:hover:scale-125">
               <p className="text-xl">Core Java</p>
               <div className="relative">
                 <div className="lg:w-96"></div>
@@ -109,14 +110,14 @@ function App() {
                 <div className="rounded-full h-2 w-72 bg-skillbar absolute"></div>
               </div>
             </div>
-            <div className="py-4 transform transition-all hover:scale-125">
+            <div className="py-4 transform transition-all lg:hover:scale-125">
               <p className="text-xl">Flutter</p>
               <div className="relative">
                 <div className="rounded-full h-2 w-80  lg:w-96 bg-white absolute"></div>
                 <div className="rounded-full h-2 w-72 bg-skillbar absolute"></div>
               </div>
             </div>
-            <div className="py-4 transform transition-all hover:scale-125">
+            <div className="py-4 transform transition-all lg:hover:scale-125">
               <p className="text-xl">React JS</p>
               <div className="relative">
                 <div className="rounded-full h-2 w-80 lg:w-96 bg-white absolute"></div>
@@ -125,7 +126,7 @@ function App() {
             </div>
           </div>
           <div>
-            <div className="py-4 transform transition-all hover:scale-125">
+            <div className="py-4 transform transition-all lg:hover:scale-125">
               <p className="text-xl">C/C++</p>
               <div className="relative">
                 <div className="lg:w-96"></div>
@@ -133,27 +134,54 @@ function App() {
                 <div className="rounded-full h-2 w-52 bg-skillbar absolute"></div>
               </div>
             </div>
-            <div className="py-4 transform transition-all hover:scale-125">
+            <div className="py-4 transform transition-all lg:hover:scale-125">
               <p className="text-xl">AWS/GCP</p>
               <div className="relative">
                 <div className="rounded-full h-2 w-80 lg:w-96 bg-white absolute"></div>
                 <div className="rounded-full h-2 w-64 bg-skillbar absolute"></div>
               </div>
             </div>
-            <div className="py-4 transform transition-all hover:scale-125">
+            <div className="py-4 transform transition-all lg:hover:scale-125">
               <p className="text-xl">DevOps</p>
               <div className="relative">
-                <div className="rounded-full h-2 w-80 lg:-96 bg-white absolute"></div>
+                <div className="rounded-full h-2 w-80 lg:w-96 bg-white absolute"></div>
                 <div className="rounded-full h-2 w-52 bg-skillbar absolute"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex bg-bground justify-center text-white py-16">
-        <p className="text-3xl mb-6 pb-2 font-semibold border-b-2">
+      <div className="flex flex-col bg-bground justify-center lg:items-center text-white py-16">
+        <p className="text-3xl mb-10 pb-2 font-semibold border-b-2 self-center">
           Work Experience
         </p>
+        <div className="w-1 h-96 rounded-full bg-skillbar ml-6 lg:mx-0 "></div>
+        <div className="absolute ml-14 mt-10 lg:ml-0 self-center mr-4 lg:mr-0">
+          <div className="relative p-4 rounded-lg bg-gray-600 my-4 lg:mr-96 mt-16">
+            <div className="">
+              <p className="text-2xl font-semibold">ABC XYZ</p>
+              <p>May 2021 -- Present Delhi, Maharashtra</p>
+              <ul>
+                <li>Build an Application</li>
+                <li>Aplication dv psdvp</li>
+                <li>fvdfsvdsfbgvsdf gws</li>
+              </ul>
+            </div>
+            <div className="w-4 h-4 absolute bg-gray-600 -right-2 top-1/2 transform rotate-45"></div>
+          </div>
+          <div className="relative p-4 rounded-lg bg-gray-600 my-4 lg:ml-96">
+            <div className="">
+              <p className="text-2xl font-semibold">ABC XYZ</p>
+              <p>May 2021 -- Present Delhi, Maharashtra</p>
+              <ul>
+                <li>Build an Application</li>
+                <li>Aplication dv psdvp</li>
+                <li>fvdfsvdsfbgvsdf gws</li>
+              </ul>
+            </div>
+            <div className="w-4 h-4 absolute bg-gray-600 -left-2 top-1/2 transform rotate-45"></div>
+          </div>
+        </div>
       </div>
     </div>
   );
