@@ -73,13 +73,29 @@ function App() {
               }}
             />
           </dic>
+          <button className="mt-20 animate-bounce">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </button>
         </div>
       </div>
       <div className="flex flex-col bg-bground text-white justify-center items-center py-16">
         <p className="text-3xl mb-6 pb-2 font-semibold border-b-2">About</p>
         <div className="flex-col flex lg:flex-row lg:space-x-8 justify-center items-center">
           <div className="h-96 w-11/12 lg:w-96 bg-suraj-img bg-cover"></div>
-          <div className="lg:w-1/2 w-11/12 py-4 lg:py-0">
+          <div className="lg:w-1/2 w-11/12 py-4 lg:py-0 lg:self-start ">
             sdivbdsi vsdiov nsdnvsdnvsdnv sdnvdvnxcknv xcvnxcin v ozxv nzin
             sdionv idfnv dv dfvndfn dfk nvdfiovdoi zi ndf vndfndfn v opfvkjdnv
             vnd fvndfv nodnf voi dnfvn n dfovnfdnionsvindfidnfvn idfv
@@ -155,8 +171,8 @@ function App() {
         <p className="text-3xl mb-10 pb-2 font-semibold border-b-2 self-center">
           Work Experience
         </p>
-        <div className="w-1 h-96 rounded-full bg-skillbar ml-6 lg:mx-0 "></div>
-        <div className="absolute ml-14 mt-10 lg:ml-0 self-center mr-4 lg:mr-0">
+        <div className="w-1 h-96 rounded-full bg-skillbar invisible lg:visible ml-6 lg:mx-0 "></div>
+        <div className="absolute  mt-10 lg:ml-0 self-center ">
           <div className="relative p-4 rounded-lg bg-gray-600 my-4 lg:mr-96 mt-16">
             <div className="">
               <p className="text-2xl font-semibold">ABC XYZ</p>
@@ -167,7 +183,7 @@ function App() {
                 <li>fvdfsvdsfbgvsdf gws</li>
               </ul>
             </div>
-            <div className="w-4 h-4 absolute bg-gray-600 -right-2 top-1/2 transform rotate-45"></div>
+            <div className="w-4 h-4 absolute bg-gray-600 invisible lg:visible -right-2 top-1/2 transform rotate-45"></div>
           </div>
           <div className="relative p-4 rounded-lg bg-gray-600 my-4 lg:ml-96">
             <div className="">
@@ -179,9 +195,14 @@ function App() {
                 <li>fvdfsvdsfbgvsdf gws</li>
               </ul>
             </div>
-            <div className="w-4 h-4 absolute bg-gray-600 -left-2 top-1/2 transform rotate-45"></div>
+            <div className="w-4 h-4 absolute bg-gray-600 invisible lg:visible -left-2 top-1/2 transform rotate-45"></div>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col bg-bground justify-center lg:items-center text-white py-16 bg-skill-bg bg-fixed bg-cover">
+        <p className="text-3xl pb-2 font-semibold border-b-2 self-center">
+          Projects
+        </p>
       </div>
     </div>
   );
